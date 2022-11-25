@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+/*font-family: 'Crimson Text', serif; */
+
+* {
+background-color: #f1d0b1;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Crimson Text', serif;
+}
+
+#indexLogo {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    margin: 2rem;
+}
+
+.seccionh1{ 
+    background-color: #5A4A59;
+    border: 2px solid rgb(92, 25, 83);
+    text-align: justify;
+    color: rgb(158, 29, 89);
+}
+
+h1 {
+    color: #938977;
+    border: 2px dashed #938990;
+    border-style: solid;
+    front size: 35px;
+}
+
+h1:hover {
+    color: #3A2138;
+}
+
+.footerIndexDerechosReservadosMexa {
+   background-color: #b35d77;
+   color: #5A4A59;
+   font-size: 50px;
+}
+
+#quienesSomos {
+    font-size: 22px;
+}
+
+p {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.iconofacebook { 
+    font-size: 30px;
+}
+
+.iconofacebook:hover {
+    color: aqua;
+    background-color: bisque;
+}
