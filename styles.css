@@ -20,16 +20,38 @@ font-family:'Crimson Text', serif;
 
 .seccionh1{ 
     background-color: #5A4A59;
+    padding: 25px;
     border: 2px solid rgb(92, 25, 83);
+    margin: 10px;
     text-align: justify;
     color: rgb(158, 29, 89);
 }
 
+.navbar {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    border: 12px; 
+    border-style: solid;
+    border-color: greenyellow;
+    list-style: none;
+}
+
+.navbar li {
+    border-radius: 5px 20px 10px;
+    flex: 1;
+    border: 4px;
+    border-style: solid;
+    border-color: #A0628B;
+    list-style: none;
+}
+
 h1 {
-    color: #938977;
+    background-color: blue;
+    text-align: center;
     border: 2px dashed #938990;
     border-style: solid;
-    front size: 35px;
+    font size: 500px;
 }
 
 h1:hover {
@@ -42,12 +64,18 @@ h1:hover {
    font-size: 50px;
 }
 
+main {
+    position: sticky;
+    top: 10 px;
+}
+
 #quienesSomos {
     font-size: 22px;
 }
 
 p {
-    text-align: center;
+    text-align: left;
+    display: flex;
     text-transform: capitalize;
 }
 
@@ -59,3 +87,21 @@ p {
     color: aqua;
     background-color: bisque;
 }
+
+.laclase-iridiani {
+    position:absolute;
+    top: 10px; left: 780px;
+    
+}
+
+.testimonialgrid {
+    display: grid;
+    gap: 2rem;
+    grid-template-areas: 
+    "imagen imagen two  five"
+    "three four four five";
+    padding-block: 2rem;
+    width: min(95%,70rem)
+    margin-inline: auto;
+}
+
